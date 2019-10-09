@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTester", "WebApiTester\WebApiTester.csproj", "{912BEE33-22C8-4326-BD2A-B5E1CA100FBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTestPro", "..\WebApiTestPro\WebApiTestPro.csproj", "{958F60D3-2876-4AAB-A4D8-8180EFC7B98A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{912BEE33-22C8-4326-BD2A-B5E1CA100FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{912BEE33-22C8-4326-BD2A-B5E1CA100FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{912BEE33-22C8-4326-BD2A-B5E1CA100FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958F60D3-2876-4AAB-A4D8-8180EFC7B98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958F60D3-2876-4AAB-A4D8-8180EFC7B98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958F60D3-2876-4AAB-A4D8-8180EFC7B98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958F60D3-2876-4AAB-A4D8-8180EFC7B98A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
