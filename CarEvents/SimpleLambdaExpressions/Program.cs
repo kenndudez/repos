@@ -8,11 +8,14 @@ namespace SimpleLambdaExpressions
 {
     class Program
     {
+        private static int value;
+
         static void Main(string[] args)
         {
             Console.WriteLine("***** Fun with Lambdas *****\n");
             TraditionalDelegateSyntax();
             AnonymousMethodSyntax();
+            addingvalue();
             Console.ReadLine();
         }
 
@@ -66,6 +69,33 @@ namespace SimpleLambdaExpressions
         }
 
 
+
+        static void addingvalue()
+        {
+            int i;
+             
+            int[] digits = new int[400];
+            Console.WriteLine("Solution:");
+            for (i=0; i<400; i++ )
+            {
+                digits[i] = value;
+                
+            }
+            Console.WriteLine();
+        }
+
+        static void addtion()
+        {
+            
+            List<int> termlist = new List<int>();
+            for (int i = 0; i < 400; i++)
+            {
+                termlist.Add(i);
+                Console.Write(termlist);
+            }
+           
+            Console.WriteLine();
+        }
         static bool IsEvenNumber(int i)
         {
             // Is it an even number?
