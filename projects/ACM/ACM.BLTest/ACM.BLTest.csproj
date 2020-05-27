@@ -55,6 +55,7 @@
     <Compile Include="ProductRepositoryTest.cs" />
     <Compile Include="OrderRepositorytest.cs" />
     <Compile Include="LoggingServiceTest.cs" />
+    <Compile Include="Socks.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

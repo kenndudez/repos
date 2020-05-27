@@ -18,6 +18,7 @@ namespace SimpleDelegate
 
         public static int SquareNumber(int a) => a * a;
     }
+
     class Program
     {
         static void Main(string[] args)
@@ -26,7 +27,7 @@ namespace SimpleDelegate
             // Create a BinaryOp delegate object that
             // "points to" SimpleMath.Add().
             BinaryOp b = new BinaryOp(SimpleMath.Add);
-
+       
             //BinaryOp b2 = new BinaryOp(SimpleMath.SquareNumber);  // No Overload for SquareNumber matches Delegate 'BinaryOp' 
             // Invoke Add() method indirectly using delegate object.
             Console.WriteLine("10 + 10 is {0}", b(10, 10));
